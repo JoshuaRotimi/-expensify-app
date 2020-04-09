@@ -1,3 +1,11 @@
+# Git Commands
+
+git init - create new repo
+git status - view changes to project code
+git add - add files to staging area
+git commit - creating new commit from with files from staging area
+git log - view recent commits
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
