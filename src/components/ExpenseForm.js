@@ -7,7 +7,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 // const now = moment();
 
-class  ExpenseForm extends  Component {
+class  ExpenseForm extends Component {
     constructor(props) {
         super(props);
 
