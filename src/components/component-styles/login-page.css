@@ -1,0 +1,39 @@
+.box-layout {
+    align-items: center;
+    background: lightblue;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.small-box {
+    background: lightgrey;
+    border-radius: 3px;
+    padding: 32px;
+    text-align: center;
+    width: 250px;
+}
+
+.box-title {
+    margin: 0 0 16px 0;
+    line-height: 1;
+}
+
+body {
+    font-size: inherit;
+    line-height: 1.6;
+}
+
+.button {
+    background: #1c88bf;
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1;
+}

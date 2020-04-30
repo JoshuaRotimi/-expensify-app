@@ -1,0 +1,36 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 450px) {
+    .input-group {
+        flex-direction: row;
+        margin-bottom: 32px;
+    }
+
+}
+
+
+.input-group-item {
+    margin-bottom: 8px;
+    margin-right: 8px;
+
+}
+
+@media (min-width: 450px) {
+    .input-group-item {
+        margin: 0 8px 0 0;
+    }
+
+}
+
+.text-input ,.select {
+    border: 1px solid #cacccd;
+    height: 46px;
+    font-weight: 300;
+    font-size: large;
+    padding: 8px;
+}
+

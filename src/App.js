@@ -5,9 +5,9 @@ import { Provider } from 'react-redux';
 import AppRouter, {history} from "./routers/AppRouter";
 import store from "./store/configureStore";
 import {login, logout} from "./actions/auth";
-import {firebase } from './firebase/firebase'
+import {firebase} from './firebase/firebase'
 import {startSetExpenses} from "./actions/expenses";
-
+import LoadingPage from "./components/LoadingPage";
 
 const App = () => {
     return (
@@ -17,8 +17,8 @@ const App = () => {
     )
 };
 
-ReactDOM.render(<p>Loading ...</p>, document.getElementById('root'));
 
+ ReactDOM.render(<LoadingPage/>, document.getElementById('root'));
 
 
 export default App;

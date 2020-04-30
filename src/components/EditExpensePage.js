@@ -2,8 +2,24 @@ import React from 'react';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
 import { startEditExpense , startRemoveExpense } from '../actions/expenses';
+import Modal from "./Modal";
+import ExpenseTotal from "./ExpenseTotal";
+
 
 export class EditExpensePage extends React.Component {
+
+    state = {
+        deleting: false
+    };
+
+    deleteHandler = () => {
+        this.setState({deleting: true})
+    };
+
+    removeDelete = () => {
+        this.setState({deleting: false})
+    };
+
     onSubmit = (expense) => {
         this.props.startEditExpense(this.props.expense.id, expense);
         this.props.history.push('/');
@@ -15,11 +31,27 @@ export class EditExpensePage extends React.Component {
     render() {
         return (
             <div>
-                <ExpenseForm
-                    expense={this.props.expense}
-                    onSubmit={this.onSubmit}
-                />
-                <button onClick={this.onRemove}>Remove</button>
+                <Modal show={this.state.deleting} expenseClosed={this.removeDelete}>
+                    <ExpenseTotal
+                        cancel={this.removeDelete}
+                        continue={this.onRemove}
+                        expense={this.props.expense}/>
+                </Modal>
+                <div className='page-header'>
+                    <div className='content-container'>
+                        <h1 className='page-title'>Edit Expense</h1>
+                    </div>
+
+                </div>
+                <div className='content-container'>
+                    <ExpenseForm
+                        expense={this.props.expense}
+                        onSubmit={this.onSubmit}
+                    />
+                    <button className='button secondary' onClick={this.deleteHandler}>Remove Expense</button>
+
+                </div>
+
             </div>
         );
     }

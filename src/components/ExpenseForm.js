@@ -4,6 +4,7 @@ import moment from "moment";
 import 'react-dates/initialize';
 import { SingleDatePicker } from 'react-dates'
 import 'react-dates/lib/css/_datepicker.css';
+import './component-styles/expense-form.css'
 
 // const now = moment();
 
@@ -62,11 +63,11 @@ class  ExpenseForm extends Component {
     };
     render() {
         return (
-            <div>
-                {this.state.error && <p>{this.state.error}</p>}
-                <form onSubmit={this.onSubmit} action="">
+                <form className='form' onSubmit={this.onSubmit} action="">
+                    {this.state.error && <p className='form-error'>{this.state.error}</p>}
                     <input
                         type="text"
+                        className='text-input'
                         placeholder='Description'
                         autoFocus
                         value={this.state.description}
@@ -74,6 +75,7 @@ class  ExpenseForm extends Component {
                     />
                     <input type="number"
                            placeholder='Amount'
+                           className='text-input'
                            value={this.state.amount}
                            onChange={this.onAmountChange}
                     />
@@ -89,14 +91,18 @@ class  ExpenseForm extends Component {
                     />
                     <textarea
                         name="" id="" cols="30" rows="10"
+                        className='textarea'
                         placeholder='Add a note for your expense (Optional)'
                         value={this.state.note}
                         onChange={this.onNotesChange}
                     >
                     </textarea>
-                    <button>Add Expense</button>
+                    <div>
+                        <button className='button'>Save Expense</button>
+                    </div>
+
                 </form>
-            </div>
+
         );
     }
 }

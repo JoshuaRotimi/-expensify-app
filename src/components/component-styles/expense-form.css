@@ -1,0 +1,22 @@
+.textarea {
+    border: 1px solid #cacccd;
+    height: 100px;
+    font-weight: 300;
+    font-size: large;
+    padding: 8px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form>* {
+    margin-bottom: 16px;
+}
+
+.form-error {
+    margin: 0 0 16px 0;
+    font-style: italic;
+}
