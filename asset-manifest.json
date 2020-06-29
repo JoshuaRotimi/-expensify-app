@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/-expensify-app/static/css/main.a7a43070.chunk.css",
+    "main.js": "/-expensify-app/static/js/main.54c4e00c.chunk.js",
+    "main.js.map": "/-expensify-app/static/js/main.54c4e00c.chunk.js.map",
+    "runtime-main.js": "/-expensify-app/static/js/runtime-main.1beb62b6.js",
+    "runtime-main.js.map": "/-expensify-app/static/js/runtime-main.1beb62b6.js.map",
+    "static/css/2.19b7558e.chunk.css": "/-expensify-app/static/css/2.19b7558e.chunk.css",
+    "static/js/2.7a351a9c.chunk.js": "/-expensify-app/static/js/2.7a351a9c.chunk.js",
+    "static/js/2.7a351a9c.chunk.js.map": "/-expensify-app/static/js/2.7a351a9c.chunk.js.map",
+    "index.html": "/-expensify-app/index.html",
+    "precache-manifest.3e16392cd685547ce3f17711d624aaec.js": "/-expensify-app/precache-manifest.3e16392cd685547ce3f17711d624aaec.js",
+    "service-worker.js": "/-expensify-app/service-worker.js",
+    "static/css/2.19b7558e.chunk.css.map": "/-expensify-app/static/css/2.19b7558e.chunk.css.map",
+    "static/css/main.a7a43070.chunk.css.map": "/-expensify-app/static/css/main.a7a43070.chunk.css.map",
+    "static/js/2.7a351a9c.chunk.js.LICENSE.txt": "/-expensify-app/static/js/2.7a351a9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1beb62b6.js",
+    "static/css/2.19b7558e.chunk.css",
+    "static/js/2.7a351a9c.chunk.js",
+    "static/css/main.a7a43070.chunk.css",
+    "static/js/main.54c4e00c.chunk.js"
+  ]
+}
