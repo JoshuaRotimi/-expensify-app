@@ -2,7 +2,7 @@
   "name": "expensify",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JoshuaRotimi.github.io/-expensify-app",
+  "homepage": "https://JoshuaRotimi.github.io/expensify-app",
   "engines": {
     "node": "13.8.0",
     "npm": "6.13.6"
