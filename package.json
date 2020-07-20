@@ -2,7 +2,7 @@
   "name": "expensify",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joshuarotimi.github.io/-expensify-app",
+  "homepage": "https://JoshuaRotimi.github.io/-expensify-app",
   "engines": {
     "node": "13.8.0",
     "npm": "6.13.6"
@@ -19,6 +19,7 @@
     "moment": "^2.24.0",
     "numeral": "^2.0.6",
     "path": "^0.12.7",
+    "raf": "^3.3.2",
     "react": "^16.13.1",
     "react-addons-shallow-compare": "^15.6.2",
     "react-dates": "^21.8.0",
@@ -55,6 +56,9 @@
     ]
   },
   "devDependencies": {
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0"
   }
 }

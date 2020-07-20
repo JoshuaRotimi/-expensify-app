@@ -2,7 +2,7 @@ import React from "react";
 
 const LoadingPage = () => (
     <div>
-        Loading
+        Loading...
     </div>
 );
 

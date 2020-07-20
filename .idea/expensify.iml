@@ -6,5 +6,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/jest" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="@types/expect.js" level="application" />
+    <orderEntry type="library" name="@types/react" level="application" />
+    <orderEntry type="library" name="@types/react-dom" level="application" />
+    <orderEntry type="library" name="@types/react-router" level="application" />
   </component>
 </module>
