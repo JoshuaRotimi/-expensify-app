@@ -36,4 +36,6 @@ body {
     font-size: 18px;
     text-decoration: none;
     line-height: 1;
+    margin: 10px;
+    cursor: pointer;
 }

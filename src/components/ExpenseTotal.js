@@ -12,13 +12,11 @@ const ExpenseTotal = (props) => {
                 {summary}
             </ul>
             <p>Are you sure you want to delete this expense?</p>
-            <button onClick={props.continue}>YES</button>
-            <button onClick={props.cancel}>NO</button>
-
+            <button className='button secondary' onClick={props.continue}>YES</button>
+            <button className='button secondary' onClick={props.cancel}>NO</button>
 
         </div>
     )
-
 };
 
 export default ExpenseTotal;
